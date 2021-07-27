@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Biology</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Fandy Saputra</h2>
+          <p class="sub-heading">Teknisi & Networking</p>
+        </div>
+        <div class="features f-1">
+          <h4 class="price">IDR 200K</h4>
+          <p class="item">Hoodie</p>
+        </div>
+        <div class="features f-2">
+          <h4 class="price">IDR 150K</h4>
+          <p class="item">Kaos</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-saklar">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Fandy Saputra</h1>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <section class="services" id="produk">
+        <div class="service">
+          <div class="icon"><i class="fas fa-user"></i></div>
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dicta quis molestias suscipit mollitia officiis.</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-handshake-o"></i></div>
+          <h3>Online Tutorial</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dicta quis molestias suscipit mollitia officiis.</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-cogs"></i></div>
+          <h3>Maintence</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dicta quis molestias suscipit mollitia officiis.</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+          <h3>Marcendise</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dicta quis molestias suscipit mollitia officiis.</p>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="" />
+        <img src="https://source.unsplash.com/random/201x201" alt="" />
+        <img src="https://source.unsplash.com/random/202x202" alt="" />
+        <img src="https://source.unsplash.com/random/203x203" alt="" />
+        <img src="https://source.unsplash.com/random/204x204" alt="" />
+        <img src="https://source.unsplash.com/random/205x205" alt="" />
+        <img src="https://source.unsplash.com/random/206x206" alt="" />
+        <img src="https://source.unsplash.com/random/207x207" alt="" />
+        <img src="https://source.unsplash.com/random/208x208" alt="" />
+        <img src="https://source.unsplash.com/random/209x209" alt="" />
+      </section>
+    </div>
+    <script>
+      const saklar = document.querySelector(".menu-saklar input");
+      const navbar = document.querySelector("nav ul");
+
+      saklar.addEventListener("click", function () {
+        navbar.classList.toggle("slide");
+      });
+    </script>
+    <script src="https://kit.fontawesome.com/ff3a2a3758.js" crossorigin="anonymous"></script>
+  </body>
+</html>
